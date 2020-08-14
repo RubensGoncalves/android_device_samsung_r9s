@@ -2,3 +2,6 @@
 ro.vendor.fingerprint.type=udfps_optical
 ro.vendor.fingerprint.sensor_location=540|2100|145
 ro.vendor.fingerprint.request_touch_event=true
+
+# RIL
+ro.telephony.default_network=26,9
