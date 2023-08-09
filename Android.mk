@@ -16,10 +16,10 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter o1s, $(TARGET_DEVICE)),)
+ifneq ($(filter r9s, $(TARGET_DEVICE)),)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-RECOVERY_KERNEL_MODULES := $(addprefix $(TARGET_RECOVERY_ROOT_OUT)/lib/modules/,$(shell cat device/samsung/o1s/modules.load))
+RECOVERY_KERNEL_MODULES := $(addprefix $(TARGET_RECOVERY_ROOT_OUT)/lib/modules/,$(shell cat device/samsung/r9s/modules.load))
 
 INSTALLED_KERNEL_TARGET := $(PRODUCT_OUT)/kernel
 INTERNAL_RECOVERY_RAMDISK_FILES_TIMESTAMP := $(call intermediates-dir-for,PACKAGING,recovery)/ramdisk_files-timestamp
