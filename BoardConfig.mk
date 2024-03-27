@@ -28,7 +28,6 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 TARGET_SCREEN_DENSITY := 410
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/r9s
 TARGET_KERNEL_CONFIG := exynos2100-r9sxxx_defconfig
 
 # Kernel modules
