@@ -25,6 +25,8 @@ function blob_fixup() {
             sed -i "s/ab022036/1f2003d5/g" "${2}".hex
             xxd -r -p "${2}".hex > "${2}"
             rm "${2}".hex
+            # Add missing reference to libui_shim.so
+            grep -q "libui_shim.so" "${2}" || "$PATCHELF" --add-needed libui_shim.so "$2"
             ;;
     esac
 }
