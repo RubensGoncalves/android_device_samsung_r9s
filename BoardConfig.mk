@@ -24,6 +24,12 @@ DEVICE_PATH := device/samsung/r9s
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# Camera
+# ID=52 is telephoto camera
+# ID=56
+# ID=58
+SOONG_CONFIG_samsungCameraVars_extra_ids := 52,56,58
+
 # Display
 TARGET_SCREEN_DENSITY := 410
 
