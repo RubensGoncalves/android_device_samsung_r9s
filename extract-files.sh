@@ -8,9 +8,6 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib*/libsec-ril*.so)
-            "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
-            ;;
         vendor/lib*/sensors.*.so)
             "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
             "${PATCHELF}" --replace-needed libutils.so libutils-v32.so "${2}"
