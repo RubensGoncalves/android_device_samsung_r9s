@@ -24,6 +24,9 @@ DEVICE_PATH := device/samsung/r9s
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# Duplicate Rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Camera
 # ID=52 is telephoto camera
 # ID=56
