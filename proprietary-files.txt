@@ -74,6 +74,9 @@ vendor/firmware/AP_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin
 vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/calliope_sram.bin
+vendor/firmware/calliope_dram.bin
+vendor/firmware/calliope_dram_2.bin
+vendor/firmware/calliope_sram_2.bin
 vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
 vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
@@ -149,6 +152,11 @@ vendor/firmware/setfile_imx258.bin
 vendor/firmware/setfile_imx616.bin
 vendor/firmware/calliope_sram.bin
 
+# Firmware
+vendor/firmware/rxse.bin
+vendor/firmware/txse1.bin
+vendor/firmware/txse2.bin
+
 # GPS
 vendor/etc/gnss/gps.xml
 vendor/lib64/libwrappergps.so
@@ -158,6 +166,9 @@ vendor/firmware/mfc_fw.bin
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
+
+# RIL
+vendor/etc/plmn_se13.bin
 
 # Teegris Firmware
 vendor/tee/00000000-0000-0000-0000-000000010081
