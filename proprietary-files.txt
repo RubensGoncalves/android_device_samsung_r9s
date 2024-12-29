@@ -10,10 +10,14 @@ vendor/lib/librecordalive.so
 vendor/lib/soundfx/libaudiosaplus_sec.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib/soundfx/libswdap.so
+vendor/lib/lib_SoundBooster_ver1070.so
+vendor/lib/libspatializerparamstorage.so
+vendor/lib/lib_SamsungRec_07020.so
 vendor/lib64/soundfx/libaudiosaplus_sec.so
 vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/soundfx/libswdap.so
-vendor/lib/lib_SamsungRec_07020.so
+vendor/lib64/lib_SoundBooster_ver1070.so
+vendor/lib64/libspatializerparamstorage.so
 vendor/etc/audio_effects_common.conf
 vendor/etc/audio_effects_sec.xml
 vendor/etc/audio_policy_volumes.xml
