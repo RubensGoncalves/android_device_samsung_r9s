@@ -111,6 +111,7 @@ dma-buf-container.ko
 ufs-exynos-core.ko
 scsi_srpmb.ko
 spidev.ko
+gw9558x_spidev.ko
 spi-s3c64xx.ko
 dhd.ko
 rtl8150.ko
@@ -242,8 +243,10 @@ max77705-fuelgauge.ko
 max77705_vibrator.ko
 broadcom-sensorhub.ko
 sensors_core.ko
+slsi_ts.ko
 snvm.ko
 mfc_charger.ko
+tsl2510.ko
 pdic_max77705.ko
 synaptics_ts.ko
 sec_direct_charger.ko
@@ -269,3 +272,4 @@ snd-soc-samsung-vts.ko
 unbound_prince.ko
 tcp_westwood.ko
 tcp_htcp.ko
+input_booster_lkm.ko
