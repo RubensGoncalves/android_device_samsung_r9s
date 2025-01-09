@@ -1,0 +1,12 @@
+
+//
+// Copyright (C) 2022 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_o1s",
+    recovery_available: true,
+    shared_libs: ["libbase"],
+    srcs: ["libinit_o1s.cpp"],
+}
