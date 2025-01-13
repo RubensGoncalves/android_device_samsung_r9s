@@ -220,7 +220,6 @@ max77705-charger.ko
 dropdump.ko
 common_muic.ko
 flicker_test.ko
-stk.ko
 sec_tsp_log.ko
 sec_tclm_v2.ko
 sec_secure_touch.ko
@@ -243,7 +242,6 @@ max77705-fuelgauge.ko
 max77705_vibrator.ko
 broadcom-sensorhub.ko
 sensors_core.ko
-slsi_ts.ko
 snvm.ko
 mfc_charger.ko
 tsl2510.ko
