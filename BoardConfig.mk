@@ -36,9 +36,6 @@ SOONG_CONFIG_samsungCameraVars_extra_ids := 52,56,58
 # Display
 TARGET_SCREEN_DENSITY := 410
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_o1s
-
 # Kernel
 TARGET_KERNEL_CONFIG := exynos2100-r9sxxx_defconfig
 
