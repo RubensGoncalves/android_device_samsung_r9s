@@ -5,8 +5,8 @@
 //
 
 cc_library_static {
-    name: "libinit_o1s",
+    name: "libinit_r9s",
     recovery_available: true,
     shared_libs: ["libbase"],
-    srcs: ["libinit_o1s.cpp"],
+    srcs: ["libinit_r9s.cpp"],
 }
