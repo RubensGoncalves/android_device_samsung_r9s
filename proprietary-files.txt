@@ -43,7 +43,6 @@ vendor/lib/libalsautils_sec.so
 vendor/lib/libaudioparamupdate.so
 vendor/lib/libaudioproxy2.so
 vendor/lib/libdatamod.so
-vendor/lib/libfloatingfeature.so
 vendor/lib/liblastaboxmsg.so
 vendor/lib/libprofileparamstorage.so
 vendor/lib/libsecaudiocoreutils.so
@@ -53,15 +52,13 @@ vendor/lib/soundfx/libaudioeffectoffload.so
 vendor/lib/soundfx/libmyspace.so
 vendor/lib/soundfx/libplaybackrecorder.so
 vendor/lib/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0.so
-vendor/lib/vndk/libaudioroute.so:vendor/lib/libaudioroute.exynos2100.so;MODULE=libaudioroute.exynos2100
-vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.exynos2100.so;MODULE=libtinyalsa.exynos2100
+vendor/lib/vndk/libaudioroute.so:vendor/lib/libaudioroute.exynos2100.so;MODULE=libaudioroute.exynos2100;FIX_SONAME
+vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.exynos2100.so;MODULE=libtinyalsa.exynos2100;FIX_SONAME
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib64/lib_SoundAlive_play_plus_ver500.so
 vendor/lib64/libaudioparamupdate.so
-vendor/lib64/libengmode_client.so
-vendor/lib64/libfloatingfeature.so
 vendor/lib64/libsecaudiocoreutils.so
 vendor/lib64/libsecaudioinfo.so
 vendor/lib64/libspeakercalibration.so
@@ -121,7 +118,6 @@ vendor/firmware/bcm4375B1_murata.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
 # Bluetooth
-vendor/lib64/libbt-vendor.so
 
 # Camera
 vendor/lib/hw/camera.exynos2100.so
@@ -164,6 +160,21 @@ vendor/firmware/txse2.bin
 # GPS
 vendor/etc/gnss/gps.xml
 vendor/lib64/libwrappergps.so
+vendor/bin/hw/gps.sh
+vendor/bin/hw/gpsd
+vendor/bin/hw/lhd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.1-service
+vendor/etc/gnss/gps.cer
+vendor/etc/init/init.gps.rc
+vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc
+vendor/etc/sensor/lhd.conf
+vendor/lib64/hw/android.hardware.gnss@2.1-impl.so;FIX_SONAME
+vendor/lib64/hw/gps.default.so;FIX_SONAME
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.1-impl.so
+vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
+vendor/lib64/vendor.samsung.hardware.gnss@2.1.so
+
+
 
 # MFC Firmware
 vendor/firmware/mfc_fw.bin
@@ -213,9 +224,7 @@ vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
 vendor/tee/ffffffff-0000-0000-0000-000000000030
 
 # Sensors
-vendor/lib/sensors.grip.so
 vendor/lib/sensors.sensorhub.so
-vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.sensorhub.so
 
 # TSP firmware
@@ -238,10 +247,8 @@ vendor/lib/libbauthtzcommon.so
 vendor/lib/libegis_fp_normal_sensor_test.so
 vendor/lib/libgf_in_system_lib.so
 vendor/lib/libqfp_sensortest.so
-vendor/lib/libsynaFpSensorTestNwd.so
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 vendor/lib64/libegis_fp_normal_sensor_test.so
 vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
-vendor/lib64/libsynaFpSensorTestNwd.so
